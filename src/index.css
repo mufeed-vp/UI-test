@@ -1,13 +1,181 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+/*============ header style =======================*/
+.navbar {
+  height: 107px;
+  background-color: #1a1d1f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  height: 107px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: thin solid #fafafa;
+}
+ .nav {
+  margin-top: 43px;
+  margin-left: 52px;
+  height: 65px;
+}
+
+.nav2 {
+  margin-top: 43px;
+  margin-left: '456px';
+  height: 65px;
+}
+
+.navbar .nav .nav-link {
+  color: #fafafa;
+  text-align: left; 
+  letter-spacing: 0px;
+  font-size: 24px;
+  font-family: 'Segoe UI';
+}
+
+
+
+.navbar .nav .nav-link:hover {
+  color: #fafafa;
+}
+
+.navbar .nav .nav-item {
+  position: relative;
+} 
+
+.navbar .nav .nav-item:hover::after {
+  width: 100%;
+}
+.navbar .nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fafafa;
+  width: 0%;
+  content: "";
+  height: 4px;
+}
+
+/*============ first card style =======================*/
+.main {
+  background-color: #1a1d1f;
+}
+
+.main .card-title {
+  text-align: center;
+  margin-top: 63px;
+  color: #fafafa;
+  font-size: 40px;
+  font-weight: 500;
+  opacity: 1;
+}
+ .card-link {
+  margin-top: 32px;
+  color: #fafafa;
+  font-size: 20px ;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+/*============ Second card style =======================*/
+
+.container2 {
+  background-color: #1a1d1f;
+  height: auto;
+}
+
+.card-body {
+  margin-left: 33px;
+  margin-top: -41px;
+}
+
+.card2 {
+  width: 300px;
+  background-color: #1a1d1f;
+  border-radius: 20px;
+  height: 100%;
+}
+.container2 .card-title2 {
+  color: #fafafa;
+  font-size: 26px;
+  font-family: 'Segoe UI';
+  text-align: left;
+}
+
+.card_subtitle {
+  color: #9f9999;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  font-family: 'Segoe UI';
+  text-align: left;
+  margin-top: -7px;
+  opacity: 1;
+}
+.card-text {
+  margin-top: 20%;
+}
+.price {
+  color: #9EA7AE;
+  font: normal normal medium 50px/76px Poppins;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: medium;
+  font-size: 39px;
+  line-height: 15px;
+  font-family: 'Segoe UI';
+  text-align: left;
+  margin-bottom: 17px;
+  opacity: 1;
+}
+.top { 
+  margin-top: -7px;
+}
+.feature {
+  text-align: left;
+  font: normal normal 600 21px/0px Segoe UI;
+  letter-spacing: 0px;
+  color: #FAFAFA;
+  opacity: 1;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+
+.ul {
+  /* list-style: none; */
+  margin-left: -12px;
+  color: #9f9999;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 33px;
+  font-family: 'Segoe UI';
+  text-align: left;
+  margin-top: -7px;
+  opacity: 1;
+
+};
+
+.ul .li::before {
+  content: "\2022";
+  color: #88CC2A;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: 0pm;
+}
+
+.button {
+  background: #9EA7AE 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 10px;
+opacity: 1;
+align-items: center;
+margin-left: 23px;
+width: 227px;
 }
