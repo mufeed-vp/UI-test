@@ -2,50 +2,50 @@
 
 /*============ header style =======================*/
 .navbar {
-  height: 107px;
+  min-height : 107px;
   background-color: #1a1d1f;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
 }
+
+
 
 .container {
-  height: 107px;
-  margin-left: 100px;
-  margin-right: 100px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
   border-bottom: thin solid #fafafa;
-}
- .nav {
-  margin-top: 43px;
-  margin-left: 52px;
-  height: 65px;
-}
+  min-height : 107px;
+} 
 
-.nav2 {
-  margin-top: 43px;
-  margin-left: '456px';
-  height: 65px;
-}
-
-.navbar .nav .nav-link {
+.navbar .me-auto .nav-link {
   color: #fafafa;
-  text-align: left; 
+  text-align: center; 
   letter-spacing: 0px;
-  font-size: 24px;
   font-family: 'Segoe UI';
 }
 
 
 
-.navbar .nav .nav-link:hover {
+.navbar .me-auto .nav-link:hover {
   color: #fafafa;
 }
-
-.navbar .nav .nav-item {
+.navbar .me-auto .nav-item {
   position: relative;
-} 
+  margin-top: 1rem;
+ }
 
-.navbar .nav .nav-item:hover::after {
+ 
+ .navbar .me-auto .nav-item:hover::after {
   width: 100%;
 }
-.navbar .nav .nav-item::after {
+.navbar .me-auto .nav-item::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -76,6 +76,7 @@
   font-size: 20px ;
   text-decoration: none;
   text-align: center;
+  letter-spacing: 0px;
 
 }
 
