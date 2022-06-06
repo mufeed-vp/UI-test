@@ -25,7 +25,9 @@ const Header = () => {
                             </Nav.Item>
                     </Nav>
                     <Nav>
+                    <Nav.Item className="nav-item">
                         <Nav.Link className="nav-link" >Login</Nav.Link>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -32,7 +32,7 @@ const Payment = () => {
                 <Container className='container2'>
                     <Row md={4}>
 
-                        <Col md="4" className='mt-5'>
+                        <Col sm='12' md="6" lg="4" className='mt-5'>
                             <Card className='card2'>
                                 <Card.Body className='card-body ml-3'>
                                     <Card.Title className='card-title2'>Trail</Card.Title>
@@ -60,7 +60,7 @@ const Payment = () => {
                             </Card       >
                         </Col>
 
-                        <Col md="4" className='mt-5'>
+                        <Col sm='12' md="6" lg="4" className='mt-5'>
                             <Card className='card2' style={{ background: '#1F2734' }}>
                                 <Card.Body className='card-body'>
                                     <Card.Title className='card-title2'>Standard </Card.Title>
@@ -91,7 +91,7 @@ const Payment = () => {
                             </Card>
                         </Col>
 
-                        <Col md="4" className='mt-5'>
+                        <Col sm='12' md="6" lg="4" className='mt-5'>
                             <Card className='card2'>
                                 <Card.Body className='card-body'>
                                     <Card.Title className='card-title2'>Enterprise</Card.Title>

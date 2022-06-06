@@ -1,5 +1,4 @@
-// import Header from './components/Header'
-import Headers from './components/Headers';
+import Header from './components/Header'
 import Payment from './components/Payment'
 
 function App() {

@@ -14,8 +14,6 @@
 
 }
 
-
-
 .container {
   width: 100%;
   margin-right: auto;
@@ -26,12 +24,10 @@
 
 .navbar .me-auto .nav-link {
   color: #fafafa;
-  text-align: center; 
+  text-align: left; 
   letter-spacing: 0px;
   font-family: 'Segoe UI';
 }
-
-
 
 .navbar .me-auto .nav-link:hover {
   color: #fafafa;
@@ -41,7 +37,6 @@
   margin-top: 1rem;
  }
 
- 
  .navbar .me-auto .nav-item:hover::after {
   width: 100%;
 }
